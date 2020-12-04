@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi and welcome to my profile!
 
 <!--
 **JoaquinR98/JoaquinR98** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+I'm an ambitious learner of Web development, and I've set up my goal of learning something new every day. Currenty learning Javascript frameworks.
+I am far from being an expert in any subject of web development so I would be happy to receive any help or to collaborate with someone.
+
+You can also reach me on Linked at https://www.linkedin.com/in/joaquin-rodini/
