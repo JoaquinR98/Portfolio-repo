@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Mako", sans-serif;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+/*NAV*/
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #b39d5f;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+#navbar a {
+  display: block;
+  margin: auto;
+  color: white;
+  text-align: center;
+  padding: 1.6rem;
+  text-decoration: none;
+  font-size: 1.4em;
+  transition: background 0.6s, color 0.6s;
+}
+
+#navbar a:hover {
+  background-color: gray;
+  color: black;
+}
+
+#navbar a:active {
+  color: white;
+}
+
+#welcome-section {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 800;
+}
+
+.welcome-text > h2 {
+  font-weight: 200;
+  text-align: center;
+  font-size: 21px;
+  color: white;
+}
+
+/*PROJECTS SECTION*/
+#projects-section-header {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 60px;
+}
+
+#projects-section {
+  background: #535659;
+  text-align: center;
+  padding: 10rem 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
