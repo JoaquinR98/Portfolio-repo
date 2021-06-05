@@ -92,6 +92,63 @@ h1 {
   margin-bottom: 5rem;
 }
 
+@media (max-width: 650px) {
+  .projects-section {
+    padding: 5rem 1rem;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project-image {
+  height: calc(100% - 3.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+.project {
+  background: #37393b;
+  border-radius: 20px;
+  box-shadow: 8px 6px 12px -6px rgba(0, 0, 0, 0.75);
+  transition: transform 0.6s ease-out;
+}
+
+.project:hover {
+  transform: scale(1.03);
+}
+
+.project:hover .project-title {
+  color: #bfa756;
+}
+
+.project-title {
+  font-size: 1.6rem;
+  padding: 0.5rem 0.2rem;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-show-all {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  font-size: 1.6rem;
+  background: #37393b;
+  color: white;
+  transition: background 0.6s ease-out;
+  transition: transform 0.6s;
+}
+
+.btn-show-all:hover {
+  background: #bfa756;
+  transform: scale(1.08);
+}
+
 /*CONTACT SECTION*/
 #contact-section {
   display: flex;
