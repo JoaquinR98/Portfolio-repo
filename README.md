@@ -1,7 +1,7 @@
 ### Hi and welcome to my profile!
 
 
-I'm an ambitious learner of Web development, and I've set up my goal of learning something new every day.
+I'm an ambitious learner of Web development and UX design. I've set up my goal of learning something new every day.
 
 Currenty learning:
 * In-depth JavaScript
