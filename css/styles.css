@@ -206,7 +206,9 @@ button {
 }
 
 blockquote {
-  margin: 30px 30%;
+  min-width: fit-content;
+  max-width: 520px;
+  margin: auto;
   padding: 30px 50px;
   background-color: #f0eecfda;
 }
