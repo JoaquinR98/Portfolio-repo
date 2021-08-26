@@ -25,7 +25,7 @@ ul {
 /*DIVIDERS*/
 .divider {
   position: relative;
-  margin-top: 90px;
+  margin-top: 80px;
   height: 1px;
 }
 
@@ -33,9 +33,9 @@ ul {
   content: "";
   position: absolute;
   top: 0;
-  left: 4%;
+  left: 30%;
   right: 2%;
-  width: 90%;
+  width: 40%;
   height: 1px;
   background-image: linear-gradient(
     to right,
@@ -82,7 +82,7 @@ ul {
   -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
   opacity: 1;
-  transform: scale(1.15);
-  -ms-transform: scale(1.15); /* IE 9 */
-  -webkit-transform: scale(1.15); /* Safari and Chrome */
+  transform: scale(1.2);
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari and Chrome */
 }
