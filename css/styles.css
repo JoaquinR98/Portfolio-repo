@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200;400;700&display=swap");
+
+/*NAVBAR*/
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 15%;
+}
+
+#logo {
+  font-family: "Montserrat", sans-serif;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.navbar li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.nav-links a {
+  padding: 12px;
+  list-style: none;
+  transition: color 0.6s;
+}
+.nav-links a:hover {
+  color: rgba(45, 102, 187, 1);
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.contact-btn {
+  width: 120px;
+  padding: 6px 26px;
+  background-color: var(--blue);
+  border-style: none;
+  border-radius: 6px;
+  transition: background-color 0.6s;
+  box-sizing: inset 0 0 0 0 #f9e506;
+  transition: ease-out 0.3s;
+  outline: none;
+}
+
+.contact-btn:hover {
+  box-shadow: inset 120px 0 0 0 #1e437b;
+  cursor: pointer;
+}
+
+/* SHOWCASE */
+
+#showcase {
+  background: rgb(255, 79, 79);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 79, 79, 1) 0%,
+    rgba(255, 71, 71, 1) 50%,
+    rgba(179, 47, 47, 1) 100%
+  );
+  color: white;
+  padding: 3% 15%;
+  margin-top: 50px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#showcase h2 {
+  font-weight: lighter;
+}
+
+#showcase h1 {
+  font-weight: bold;
+  font-size: 64px;
+}
+
+#showcase p {
+  width: 300px;
+  font-size: 18px;
+}
+
+#thumbnail {
+  height: 400px;
+  width: 400px;
+}
+
+/*SPECS*/
+
+#specs {
+  margin: 30px 100px;
+  background-color: #f0f0f0;
+  padding: 3% 15%;
+}
+
+#specs h2 {
+  color: var(--red);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 40px;
+}
+
+.one {
+  grid-area: 1 / 1 / 2 / 4;
+}
+.two {
+  grid-area: 2 / 1 / 3 / 4;
+}
+.three {
+  grid-area: 3 / 1 / 4 / 2;
+  text-align: center;
+}
+.four {
+  grid-area: 3 / 2 / 4 / 3;
+  text-align: center;
+}
+.five {
+  grid-area: 3 / 3 / 4 / 4;
+  text-align: center;
+}
+
+.three,
+.four,
+.five {
+  margin-top: 25px;
+}
+/*DISPLAY*/
+#display {
+  position: static;
+  width: 100%;
+  padding: 3% 15%;
+  height: auto;
+  background: rgb(255, 79, 79);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 79, 79, 1) 0%,
+    rgba(255, 71, 71, 1) 50%,
+    rgba(179, 47, 47, 1) 100%
+  );
+}
+
+#display > .flex {
+  justify-content: center;
+  align-items: center;
+}
+
+#display img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 650px;
+  width: 720px;
+}
+
+/*RESEARCH*/
+#research {
+  margin-top: 50px;
+  padding: 3% 15%;
+  background-color: var(--bg-white);
+}
+
+#research div {
+  margin: 40px 0;
+}
+
+.graphs {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.graphs img {
+  margin: 5px;
+  width: 420px;
+  height: auto;
+}
+
+blockquote {
+  margin: 30px 30%;
+  padding: 30px 50px;
+  background-color: #f0eecfda;
+}
+
+/*DEFINE*/
+#define {
+  margin-top: 50px;
+  padding: 3% 15%;
+}
+
+#define div {
+  margin: 40px 0;
+}
+
+.personas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.personas img {
+  margin: 5px;
+  max-width: 560px;
+  height: auto;
+}
+
+.journey img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+}
+
+/*IA*/
+#ia {
+  margin-top: 50px;
+  padding: 3% 15%;
+}
+
+#ia div {
+  margin: 40px 0;
+}
+
+.sitemap img {
+  display: block;
+  margin: auto;
+  max-width: 600px;
+  height: auto;
+}
+
+.user-flow img {
+  display: block;
+  margin: auto;
+  max-width: 920px;
+  height: auto;
+}
+
+/*DESIGN*/
+#design {
+  margin-top: 50px;
+  padding: 3% 15%;
+}
+
+#design div {
+  margin: 40px 0;
+}
+
+.sketches img {
+  display: block;
+  margin: auto;
+  max-width: 520px;
+  height: auto;
+}
+
+.lofi img {
+  display: block;
+  margin: auto;
+  max-width: 600px;
+  height: auto;
+}
+
+.palette img {
+  display: block;
+  margin: auto;
+  max-width: 520px;
+  height: auto;
+}
+
+.ui img {
+  display: block;
+  margin: auto;
+  max-width: 900px;
+  height: auto;
+}
+
+.final img {
+  display: block;
+  margin: auto;
+  max-width: 900px;
+  height: auto;
+}
+
+/*MEDIA QUERIES*/
