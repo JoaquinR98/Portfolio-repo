@@ -82,6 +82,14 @@ button {
   align-items: center;
 }
 
+.showcase-text {
+  animation: slideInFromLeft 1s ease-in;
+}
+
+.showcase-image {
+  animation: slideInFromRight 1s ease-in;
+}
+
 #showcase h2 {
   font-weight: lighter;
 }
@@ -303,4 +311,23 @@ blockquote {
   height: auto;
 }
 
-/*MEDIA QUERIES*/
+/*ANIMATIONS*/
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
