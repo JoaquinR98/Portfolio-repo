@@ -82,7 +82,7 @@ ul {
   -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
   opacity: 1;
-  transform: scale(1.2);
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari and Chrome */
+  transform: scale(1.15);
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari and Chrome */
 }
