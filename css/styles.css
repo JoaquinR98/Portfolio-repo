@@ -106,7 +106,7 @@ button {
 
 #thumbnail {
   height: 400px;
-  width: 400px;
+  width: auto;
 }
 
 /*SPECS*/
@@ -146,17 +146,9 @@ button {
   text-align: center;
 }
 
-.three,
-.four,
-.five {
-  margin-top: 30px;
-}
 /*DISPLAY*/
 #display {
-  position: static;
-  width: 100%;
   padding: 3% 20%;
-  height: auto;
   background: rgb(255, 79, 79);
   background: linear-gradient(
     90deg,
@@ -172,11 +164,10 @@ button {
 }
 
 #display img {
-  margin-left: auto;
-  margin-right: auto;
   display: block;
-  height: 650px;
-  width: 720px;
+  margin: auto;
+  height: 700px;
+  width: auto;
 }
 
 /*RESEARCH*/
@@ -330,5 +321,51 @@ blockquote {
 
   100% {
     transform: translateX(0);
+  }
+}
+
+/*Mobile*/
+@media (max-width: 780px) {
+  .navbar {
+    position: relative;
+    height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-links li {
+    padding: 5px;
+  }
+
+  .contact-btn {
+    display: none;
+  }
+
+  #showcase {
+    margin: 0%;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .showcase-text {
+    margin: 20px 0;
+  }
+
+  #thumbnail {
+    height: 280px;
+    width: auto;
+  }
+
+  #display-img {
+    position: relative;
+    height: auto;
+    max-width: 100%;
   }
 }
