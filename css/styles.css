@@ -14,10 +14,9 @@
   padding: 6px 20%;
 }
 
-#logo {
-  font-family: "Montserrat", sans-serif;
-  color: var(--white);
-  cursor: pointer;
+.navbar img {
+  height: 40px;
+  width: auto;
 }
 
 .navbar li,
