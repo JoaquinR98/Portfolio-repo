@@ -247,7 +247,7 @@ blockquote {
 .user-flow img {
   display: block;
   margin: auto;
-  max-width: 920px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -367,5 +367,9 @@ blockquote {
   .final img {
     max-width: 100%;
     height: auto;
+  }
+
+  .noHover {
+    pointer-events: none;
   }
 }
