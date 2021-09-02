@@ -157,14 +157,8 @@ button {
   );
 }
 
-#display > .flex {
-  justify-content: center;
-  align-items: center;
-}
-
 #display-thumbnail {
   display: block;
-  margin: auto;
   height: auto;
   width: 100%;
 }
@@ -362,9 +356,16 @@ blockquote {
     width: auto;
   }
 
-  #display-img {
-    position: relative;
-    height: auto;
+  .graphs img,
+  .personas img,
+  .journey img,
+  .sitemap img,
+  .user-flow img,
+  .sketches img,
+  .lofi img,
+  .palette img,
+  .final img {
     max-width: 100%;
+    height: auto;
   }
 }
