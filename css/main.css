@@ -59,18 +59,17 @@ button {
 
 /*SHOWCASE*/
 
-.showcase {
-  height: 170px;
+.skew {
+  height: 160px;
   background-color: var(--dark);
-  color: white;
   position: relative; /*in case i need to position anything absolute within it*/
 }
 
-.showcase::before,
-.showcase::after {
+.skew::before,
+.skew::after {
   content: "";
   position: absolute;
-  height: 175px;
+  height: 170px;
   bottom: -84px;
   right: 0;
   left: 0;
@@ -79,4 +78,9 @@ button {
   -webkit-transform: skewY(5deg); /*for chrome and safari*/
   -moz-transform: skewY(5deg); /*for mozilla*/
   -ms-transform: skewY(5deg); /*for internet explorer*/
+}
+
+.lead {
+  position: relative;
+  z-index: 9998 !important;
 }
