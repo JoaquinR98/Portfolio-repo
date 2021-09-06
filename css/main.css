@@ -1,14 +1,14 @@
 /*NAVBAR*/
 
 .navbar {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
   background-color: var(--dark);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 6px 20%;
+  padding: 40px 20%;
 }
 
 .img-fluid {
@@ -57,33 +57,26 @@ button {
   cursor: pointer;
 }
 
-/*Mobile*/
-@media (max-width: 980px) {
-  .navbar {
-    position: relative;
-    height: auto;
-    align-items: center;
-    justify-content: space-evenly;
-  }
+/*SHOWCASE*/
 
-  .nav-links {
-    display: flex;
-    flex-direction: column;
-  }
+.showcase {
+  height: 170px;
+  background-color: var(--dark);
+  color: white;
+  position: relative; /*in case i need to position anything absolute within it*/
+}
 
-  .nav-links li {
-    padding: 5px;
-  }
-
-  .contact-btn {
-    display: none;
-  }
-
-  #showcase {
-    margin: 0%;
-  }
-
-  .flex {
-    flex-direction: column;
-  }
+.showcase::before,
+.showcase::after {
+  content: "";
+  position: absolute;
+  height: 175px;
+  bottom: -84px;
+  right: 0;
+  left: 0;
+  background: var(--bg-white);
+  transform: skewY(5deg);
+  -webkit-transform: skewY(5deg); /*for chrome and safari*/
+  -moz-transform: skewY(5deg); /*for mozilla*/
+  -ms-transform: skewY(5deg); /*for internet explorer*/
 }
