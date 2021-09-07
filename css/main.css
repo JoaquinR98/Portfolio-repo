@@ -1,3 +1,15 @@
+.container {
+  max-width: 100%;
+  padding: 0 15%;
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /*NAVBAR*/
 
 .navbar {
@@ -8,7 +20,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 20%;
+  padding: 40px 15%;
 }
 
 .img-fluid {
@@ -59,14 +71,18 @@ button {
 
 /*SHOWCASE*/
 
-.skew {
-  height: 160px;
+.intro {
+  height: 180px;
   background-color: var(--dark);
   position: relative; /*in case i need to position anything absolute within it*/
 }
 
-.skew::before,
-.skew::after {
+.intro > .container {
+  padding-top: 40px;
+}
+
+.intro::before,
+.intro::after {
   content: "";
   position: absolute;
   height: 170px;
@@ -74,13 +90,20 @@ button {
   right: 0;
   left: 0;
   background: var(--bg-white);
-  transform: skewY(5deg);
-  -webkit-transform: skewY(5deg); /*for chrome and safari*/
-  -moz-transform: skewY(5deg); /*for mozilla*/
-  -ms-transform: skewY(5deg); /*for internet explorer*/
+  transform: skewY(4.5deg);
+  -webkit-transform: skewY(4.5deg); /*for chrome and safari*/
+  -moz-transform: skewY(4.5deg); /*for mozilla*/
+  -ms-transform: skewY(4.5deg); /*for internet explorer*/
 }
 
-.lead {
+.intro-text {
   position: relative;
   z-index: 9998 !important;
+}
+
+#pp {
+  height: 300px;
+  width: auto;
+  position: relative;
+  z-index: 9998;
 }

@@ -10,33 +10,39 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <!--Navbar-->
-      <div class="navbar">
-        <a class="navbar-brand" href="index.html">
-          <div class="logo-image">
-            <img src="./images/logo.png" class="img-fluid" />
-          </div>
-        </a>
-        <ul class="nav-links">
-          <!--shift+alt+down to copy paste down-->
-          <li><a href="about.html">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="socials.html">Socials</a></li>
-        </ul>
+    <!--Navbar-->
+    <div class="navbar">
+      <a class="navbar-brand" href="index.html">
+        <div class="logo-image">
+          <img src="./images/logo.png" class="img-fluid" />
+        </div>
+      </a>
+      <ul class="nav-links">
+        <!--shift+alt+down to copy paste down-->
+        <li><a href="about.html">Home</a></li>
+        <li><a href="projects.html">Work</a></li>
+        <li><a href="socials.html">About</a></li>
+      </ul>
 
-        <button class="contact-btn"><span>Contact</span></button>
-      </div>
-      <div class="skew"></div>
-    </header>
-    <div class="body">
-      <section class="intro">
-        <h2 class="lead">
-          Hi, I'm Joaquin, a self-taught UX Designer based in Buenos Aires.
-        </h2>
-        <br />
-        <h2>See my work (icon)</h2>
-      </section>
+      <button class="contact-btn"><span>Contact</span></button>
     </div>
+
+    <section class="intro">
+      <div class="container flex">
+        <div class="intro-text">
+          <h2 class="lead">
+            Hi, I'm Joaquin, a self-taught UX Designer based in Buenos Aires.
+          </h2>
+          <br />
+          <h2>See my work</h2>
+        </div>
+        <div class="profile-photo">
+          <img id="pp" src="./images/pp.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!--Projects-->
+    <section class="projects"></section>
   </body>
 </html>
