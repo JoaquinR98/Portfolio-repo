@@ -3,6 +3,8 @@
 
 :root {
   --dark: #24252a;
+  --dark-blue: #141c30;
+  --cyan: #2eb9a8;
   --bg-white: #f5f5f5;
   --white: #edf0f1;
   --blue: rgba(45, 102, 187, 1);
@@ -19,13 +21,18 @@ body {
   font-family: "Roboto";
   line-height: 1.6;
 }
-.body {
-  padding: 0 20%;
-}
 
 p,
 ul {
   font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cyan {
+  color: var(--cyan);
 }
 
 /*DIVIDERS*/
