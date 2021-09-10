@@ -7,7 +7,7 @@
 .container2 {
   max-width: 100%;
   padding: 0 20%;
-  margin-bottom: 10em;
+  margin-bottom: 8em;
   overflow: hidden;
 }
 
@@ -19,7 +19,6 @@
 }
 
 /*NAVBAR*/
-
 .navbar {
   position: relative;
   top: 0;
@@ -77,15 +76,11 @@ button {
 }
 
 /*SHOWCASE*/
-
 #intro {
-  height: 180px;
+  height: 160px;
   background-color: var(--dark-blue);
   position: relative; /*in case i need to position anything absolute within it*/
-}
-
-#intro > .container {
-  padding-top: 60px;
+  margin-bottom: 20em;
 }
 
 #intro::before,
@@ -97,19 +92,26 @@ button {
   right: 0;
   left: 0;
   background: var(--bg-white);
-  transform: skewY(4.5deg);
-  -webkit-transform: skewY(4.5deg); /*for chrome and safari*/
-  -moz-transform: skewY(4.5deg); /*for mozilla*/
-  -ms-transform: skewY(4.5deg); /*for internet explorer*/
+  transform: skewY(5deg);
+  -webkit-transform: skewY(5deg); /*for chrome and safari*/
+  -moz-transform: skewY(5deg); /*for mozilla*/
+  -ms-transform: skewY(5deg); /*for internet explorer*/
 }
 
-.intro-text {
+.intro-info,
+.contact-info {
+  padding-top: 5em;
+}
+
+.intro-text,
+.contact-info {
+  flex-basis: 45%;
   position: relative;
-  z-index: 9998 !important;
+  z-index: 1;
 }
 
 #pp {
-  height: 280px;
+  height: 260px;
   width: auto;
   position: relative;
   z-index: 9998;
@@ -117,10 +119,58 @@ button {
 
 /*PROJECTS*/
 #projects {
-  margin-top: 22em;
+  padding: 4em 0;
+  margin-bottom: 6em;
 }
 
 .project-img {
   height: 200px;
   width: auto;
+}
+
+/*ABOUT*/
+#about {
+  background-color: var(--dark-blue);
+  padding: 4em 0;
+}
+
+#pp2 {
+  border-radius: 8px;
+  height: 420px;
+  width: 250px;
+  position: relative;
+  z-index: 9998;
+}
+
+.about-text {
+  color: var(--white);
+}
+
+/*CONTACT*/
+#contact {
+  height: 30px;
+  background-color: var(--dark-blue);
+  position: relative; /*in case i need to position anything absolute within it*/
+  margin-bottom: 22em;
+}
+
+#contact::before,
+#contact::after {
+  content: "";
+  position: absolute;
+  height: 200px;
+  bottom: -100px;
+  right: 0;
+  left: 0;
+  background: var(--bg-white);
+  transform: skewY(6deg);
+  -webkit-transform: skewY(6deg);
+  -moz-transform: skewY(6deg);
+  -ms-transform: skewY(6deg);
+}
+
+/*FOOTER*/
+#footer {
+  height: 120px;
+  background-color: var(--dark-blue);
 }
