@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/utilities.css" />
     <link rel="stylesheet" href="css/main.css" />
     <title>UX Portfolio | Joaquin Rodini</title>
     <title>Document</title>
+    </script>
   </head>
   <body>
     <!--Navbar-->
@@ -35,7 +37,11 @@
             amet sosectur adisplics.
           </h2>
           <br />
-          <h2 class="cyan">See my work</h2>
+          <br>
+          <div class="cyaned">
+            <h2 class="cyan">See my work</h2>
+            <img class="arrow" src="./images/bi_arrow-down.png" alt="">
+          </div>
         </div>
         <div>
           <img id="pp" src="./images/pp.png" alt="" />
@@ -59,9 +65,14 @@
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta
             minus distinctio assumenda laboriosam corrupti error!
           </p>
-          <a href="./mypriest.html">
-            <h2 class="cyan">Read case study</h2>
-          </a>
+          <div class="block">
+            <a href="./mypriest.html">
+              <div class="cyaned">
+                <h2 class="cyan">Read case study</h2>
+                <img class="arrow" src="./images/bi_arrow-down.png" alt="">
+              </div>
+            </a>
+          </div>
         </div>
       </div>
       <!--GreekFix-->
@@ -73,9 +84,14 @@
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, earum
             enim dolorem incidunt exercitationem, quod blanditiis minus.
           </p>
-          <a href="">
-            <h2 class="cyan">Read case study (coming soon)</h2>
-          </a>
+          <div class="block">
+            <a href="">
+              <div class="cyaned">
+                <h2 class="cyan">Read case study (coming soon)</h2>
+                <img class="arrow" src="./images/bi_arrow-down.png" alt="">
+              </div>
+            </a>
+          </div>
         </div>
         <div>
           <a href="">
@@ -126,6 +142,21 @@
       </div>
     </section>
 
-    <section id="footer"></section>
+    <section class="flex" id="footer">
+      <div class="container flex">
+        <div class="icons">
+          <a href="">
+            <img src="./images/akar-icons_linkedin-fill.png" alt="">
+          </a>
+          <a href="">
+            <img src="./images/akar-icons_github-fill.png" alt="">
+          </a>
+        </div>
+        <div class="owner">
+          <img src="" alt="">
+          <span>&reg 2021 Joaquin Rodini</span>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

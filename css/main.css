@@ -18,6 +18,20 @@
   gap: 30px;
 }
 
+.block {
+  display: inline-block;
+}
+
+.cyaned {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.arrow {
+  height: 26px;
+  width: auto;
+}
+
 /*NAVBAR*/
 .navbar {
   position: relative;
@@ -123,6 +137,10 @@ button {
   margin-bottom: 6em;
 }
 
+#projects .arrow {
+  transform: rotate(-90deg);
+}
+
 .project-img {
   height: 200px;
   width: auto;
@@ -171,6 +189,22 @@ button {
 
 /*FOOTER*/
 #footer {
-  height: 120px;
+  height: 100px;
   background-color: var(--dark-blue);
+}
+
+#footer > div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.icons img {
+  margin-right: 2em;
+  height: 38px;
+  width: auto;
+}
+
+.owner {
+  color: var(--white);
 }
