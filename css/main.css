@@ -154,7 +154,7 @@ button {
 
 #pp2 {
   border-radius: 8px;
-  height: 420px;
+  height: 380px;
   width: 250px;
   position: relative;
   z-index: 9998;
@@ -201,7 +201,7 @@ button {
 
 .icons img {
   margin-right: 2em;
-  height: 38px;
+  height: 36px;
   width: auto;
 }
 
