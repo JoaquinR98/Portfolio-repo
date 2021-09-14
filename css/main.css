@@ -208,3 +208,14 @@ button {
 .owner {
   color: var(--white);
 }
+
+/*MEDIA QUERY*/
+/*big screens*/
+@media screen and (min-width: 1400px) {
+  .project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+  }
+}
