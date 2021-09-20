@@ -14,7 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 30px;
 }
 
 .block {
@@ -45,6 +45,11 @@
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.logo-img {
   height: 50px;
   width: auto;
 }
@@ -77,12 +82,13 @@ button {
 
 .nav-links li {
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .contact-btn {
   width: 120px;
   padding: 6px 26px;
+  margin-left: 10px;
   background-color: var(--blue);
   border-style: none;
   border-radius: 6px;
