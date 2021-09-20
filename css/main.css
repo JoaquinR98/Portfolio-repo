@@ -282,3 +282,55 @@ button {
     gap: 4em;
   }
 }
+
+/*Mobile*/
+@media (max-width: 980px) {
+  .navbar {
+    position: relative;
+    height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-links li {
+    padding: 5px;
+  }
+
+  .contact-btn {
+    display: none;
+  }
+
+  #intro {
+    height: 120px;
+  }
+
+  .intro-info {
+    align-items: center;
+  }
+
+  .lead {
+    font-size: 2em;
+  }
+
+  #pp {
+    width: 220px;
+    height: auto;
+  }
+
+  #projects {
+    margin-top: 30em;
+  }
+
+  .project {
+    flex-direction: column;
+  }
+
+  #greekfix {
+    flex-direction: column-reverse;
+  }
+}
