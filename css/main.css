@@ -88,7 +88,7 @@ button {
 .contact-btn {
   width: 120px;
   padding: 6px 26px;
-  margin-left: 10px;
+  margin-left: 20px;
   background-color: var(--blue);
   border-style: none;
   border-radius: 6px;
@@ -285,6 +285,7 @@ button {
 
 /*Mobile*/
 @media (max-width: 980px) {
+  /*NAVBAR*/
   .navbar {
     position: relative;
     height: auto;
@@ -305,6 +306,7 @@ button {
     display: none;
   }
 
+  /*INTRO*/
   #intro {
     height: 120px;
   }
@@ -317,13 +319,26 @@ button {
     font-size: 2em;
   }
 
+  .project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project div {
+    width: 306px;
+  }
+
   #pp {
-    width: 220px;
+    width: 200px;
     height: auto;
   }
 
+  /*PROJECT SECTION*/
   #projects {
-    margin-top: 30em;
+    padding: 0;
+    margin: 30em 0 0 0;
+    margin-bottom: 0;
   }
 
   .project {
@@ -332,5 +347,21 @@ button {
 
   #greekfix {
     flex-direction: column-reverse;
+  }
+
+  /*ABOUT*/
+  #about {
+    padding-bottom: 14em;
+  }
+
+  #pp2 {
+    height: 260px;
+    width: auto;
+    display: inline-flex;
+  }
+
+  /*CONTACT*/
+  #contact {
+    margin-bottom: 30em;
   }
 }
