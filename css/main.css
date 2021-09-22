@@ -268,7 +268,7 @@ button {
   width: auto;
 }
 
-.owner {
+#owner {
   color: var(--white);
 }
 
@@ -367,6 +367,10 @@ button {
 }
 
 @media (max-width: 540px) {
+  .logo {
+    gap: 10px;
+  }
+
   .logo-img {
     height: 42px;
     width: auto;
@@ -390,8 +394,12 @@ button {
   }
 
   .icon {
-    margin-right: 2em;
-    height: 30px;
+    margin-right: 1em;
+    height: 26px;
     width: auto;
+  }
+
+  #owner {
+    font-size: 12px;
   }
 }
