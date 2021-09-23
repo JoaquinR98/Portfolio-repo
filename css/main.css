@@ -303,7 +303,7 @@ button {
   }
 
   .nav-links li {
-    padding: 5px;
+    padding: 4px;
   }
 
   .contact-btn {
@@ -312,7 +312,7 @@ button {
 
   /*INTRO*/
   #intro {
-    height: 120px;
+    height: 80px;
   }
 
   .intro-info {
