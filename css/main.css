@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 100%;
   padding: 0 15%;
@@ -380,15 +384,11 @@ button {
     font-size: 20px;
   }
 
-  #pp {
-    height: 160px;
-    width: auto;
-  }
-
   #projects {
     padding: 6em 0;
   }
 
+  #pp,
   #pp2 {
     display: none;
   }
