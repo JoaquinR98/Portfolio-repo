@@ -1,7 +1,22 @@
 :root {
-  --skyblue: #349fba;
+  --skyblue: #338599;
 }
 
+/*SECTION HEADINGS*/
+.section-title {
+  color: var(--skyblue);
+  font-size: 46px;
+  margin-bottom: 40px;
+}
+
+.section-item {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: var(--skyblue);
+  font-size: 28px;
+}
+
+/*NAVBAR*/
 .navbar {
   position: fixed;
   top: 0;
@@ -62,7 +77,7 @@ button {
 /* SHOWCASE */
 
 #showcase {
-  background: rgb(52, 159, 186);
+  background: #338599;
   background: linear-gradient(
     90deg,
     rgba(52, 159, 186, 1) 0%,
@@ -103,14 +118,14 @@ button {
 }
 
 #thumbnail {
-  height: 400px;
+  height: 380px;
   width: auto;
 }
 
 /*SPECS*/
 
 #specs {
-  background-color: #ebebeb;
+  background-color: hsl(0, 0%, 90%);
   padding: 5% 20%;
 }
 
@@ -142,4 +157,52 @@ button {
 .five {
   grid-area: 3 / 3 / 4 / 4;
   text-align: center;
+}
+
+/*BANNER*/
+.banner {
+  height: 4em;
+  background-color: var(--skyblue);
+}
+
+/*ORIGINAL UI*/
+#originalui {
+  margin-top: 50px;
+  padding: 3% 20%;
+  background-color: var(--bg-white);
+}
+
+#originalui img {
+  display: block;
+  margin: auto;
+  max-width: 600px;
+  height: auto;
+}
+
+/*REDESIGNED UI*/
+#redesignedui {
+  margin-top: 50px;
+  padding: 3% 20%;
+  background-color: var(--bg-white);
+}
+
+/*ANIMATIONS*/
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
