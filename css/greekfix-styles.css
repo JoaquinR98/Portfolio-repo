@@ -3,7 +3,6 @@
 }
 
 html {
-  scrollbar-width: thin;
   scrollbar-color: hsl(192, 50%, 30%) #555;
 }
 
@@ -185,7 +184,7 @@ button {
 #originalui img {
   display: block;
   margin: auto;
-  max-width: 600px;
+  max-width: 680px;
   height: auto;
 }
 
