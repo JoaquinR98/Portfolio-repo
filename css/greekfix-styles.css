@@ -6,12 +6,6 @@ html {
   scrollbar-color: hsl(192, 50%, 30%) #555;
 }
 
-.section {
-  margin-top: 50px;
-  padding: 3% 20%;
-  background-color: var(--bg-white);
-}
-
 /*SECTION HEADINGS*/
 .section-title {
   color: var(--skyblue);

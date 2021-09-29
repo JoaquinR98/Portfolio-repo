@@ -197,16 +197,6 @@ button {
 }
 
 /*RESEARCH*/
-#research {
-  margin-top: 50px;
-  padding: 3% 20%;
-  background-color: var(--bg-white);
-}
-
-#research div {
-  margin: 40px 0;
-}
-
 .graphs {
   max-width: 1200px;
   display: flex;
@@ -230,15 +220,6 @@ blockquote {
 }
 
 /*DEFINE*/
-#define {
-  margin-top: 50px;
-  padding: 3% 20%;
-}
-
-#define div {
-  margin: 40px 0;
-}
-
 .personas {
   display: flex;
   flex-wrap: wrap;
@@ -261,15 +242,6 @@ blockquote {
 }
 
 /*IA*/
-#ia {
-  margin-top: 50px;
-  padding: 3% 20%;
-}
-
-#ia div {
-  margin: 40px 0;
-}
-
 .sitemap img {
   display: block;
   margin: auto;
@@ -285,15 +257,6 @@ blockquote {
 }
 
 /*DESIGN*/
-#design {
-  margin-top: 50px;
-  padding: 3% 20%;
-}
-
-#design div {
-  margin: 40px 0;
-}
-
 .sketches img {
   display: block;
   margin: auto;
