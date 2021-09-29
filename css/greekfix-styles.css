@@ -2,6 +2,11 @@
   --skyblue: #338599;
 }
 
+html {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(192, 50%, 30%) #555;
+}
+
 /*SECTION HEADINGS*/
 .section-title {
   color: var(--skyblue);
@@ -14,6 +19,11 @@
   margin-bottom: 20px;
   color: var(--skyblue);
   font-size: 28px;
+}
+
+img {
+  display: block;
+  margin: auto;
 }
 
 /*NAVBAR*/
@@ -184,6 +194,20 @@ button {
   margin-top: 50px;
   padding: 3% 20%;
   background-color: var(--bg-white);
+}
+
+#light-ui {
+  max-width: 800px;
+  height: auto;
+  background-color: white;
+  padding: 2em;
+}
+
+#dark-ui {
+  height: 534px;
+  width: auto;
+  background-color: white;
+  padding: 2em;
 }
 
 /*ANIMATIONS*/

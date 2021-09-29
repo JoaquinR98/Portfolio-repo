@@ -2,6 +2,11 @@
   --red: #ff4747;
 }
 
+html {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(0, 50%, 30%) #555;
+}
+
 /*SECTION HEADINGS*/
 .section-title {
   color: var(--red);
