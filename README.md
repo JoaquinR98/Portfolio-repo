@@ -1,17 +1,8 @@
-### Hi and welcome to my profile!
+### Hi and welcome to my profile.
 
 
-I'm an ambitious learner of Web development and UX design. I've set up my goal of learning something new every day.
+I'm an ambitious learner of UX Design and Web development. My goal is to learn something new every day.
 
-Currenty learning:
-* In-depth JavaScript
-* JS Frameworks
-  * Vue.js
-* CSS Frameworks 
-  * Tailwind
-  * Sass
-* Git
-
-I am far from being an expert in any subject of web development so I would be happy to receive any help or to collaborate with someone.
+See my UX Portfolio at https://joaquinr98.github.io/JoaquinR98/
 
 You can also reach me on Linked at https://www.linkedin.com/in/joaquin-rodini/
