@@ -147,6 +147,7 @@ button {
 }
 
 #pp {
+  border-radius: 50%;
   height: 280px;
   width: auto;
   position: relative;
