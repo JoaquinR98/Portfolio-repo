@@ -28,6 +28,7 @@ html {
 .cyaned {
   display: flex;
   align-items: center;
+  font-family: roboto;
   gap: 8px;
   color: var(--cyan);
 }
