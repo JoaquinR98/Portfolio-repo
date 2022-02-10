@@ -3,7 +3,20 @@
 }
 
 html {
-  scrollbar-color: hsl(268, 70%, 35%) #555;
+  scrollbar-color: hsl(268, 62%, 39%) #555;
+}
+
+/*SECTION HEADINGS*/
+.section-title {
+  color: var(--purple);
+  font-size: 46px;
+  margin-bottom: 40px;
+}
+
+.section-item {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 28px;
 }
 
 /* SHOWCASE */
@@ -89,4 +102,22 @@ html {
 .five {
   grid-area: 3 / 3 / 4 / 4;
   text-align: center;
+}
+
+/*DISPLAY*/
+#display {
+  padding: 3% 20%;
+  background: rgb(118, 78, 232);
+  background: linear-gradient(
+    90deg,
+    rgba(118, 78, 232, 1) 0%,
+    rgba(110, 70, 224, 1) 50%,
+    rgba(100, 58, 212, 1) 100%
+  );
+}
+
+#display-thumbnail {
+  display: block;
+  height: auto;
+  width: 100%;
 }
