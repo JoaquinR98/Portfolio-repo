@@ -3,7 +3,7 @@
 }
 
 html {
-  scrollbar-color: hsl(268, 62%, 39%) #555;
+  scrollbar-color: #6844ca #555;
 }
 
 /*SECTION HEADINGS*/
@@ -14,13 +14,12 @@ html {
 }
 
 .section-item {
-  margin-top: 40px;
+  margin-top: 3em;
   margin-bottom: 20px;
   font-size: 28px;
 }
 
 /* SHOWCASE */
-
 #showcase {
   background: rgb(118, 78, 232);
   background: linear-gradient(
@@ -68,7 +67,6 @@ html {
 }
 
 /*SPECS*/
-
 #specs {
   background-color: hsl(0, 0%, 90%);
   padding: 5% 20%;
@@ -120,4 +118,20 @@ html {
   display: block;
   height: auto;
   width: 100%;
+}
+
+/*RESEARCH*/
+#research img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
+
+blockquote {
+  max-width: 520px;
+  margin: auto;
+  padding: 30px 50px;
+  background-color: #f0eecfda;
 }
