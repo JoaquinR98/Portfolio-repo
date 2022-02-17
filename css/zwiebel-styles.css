@@ -171,16 +171,30 @@ blockquote {
   margin-top: 2em;
 }
 
-.styling p:nth-child(6) {
+.styling h3 {
   width: 400px;
   margin: auto;
   text-align: center;
   vertical-align: middle;
 }
 
-.styling p:nth-child(10) {
-  width: 400px;
-  margin: auto;
+.mockups {
+  display: flex;
+  gap: 2em;
+}
+
+.high-fidelity img {
+  width: 100%;
+  box-shadow: 5px 5px 5px lightgray;
+}
+
+h3 {
+  font-weight: 100;
+}
+
+.mockup {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  vertical-align: middle;
+  gap: 1em;
 }
