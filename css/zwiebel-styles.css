@@ -33,6 +33,14 @@ html {
   margin-top: 50px;
 }
 
+.showcase-text {
+  animation: slideInFromLeft 2s ease-in-out;
+}
+
+.showcase-image {
+  animation: slideInFromRight 2s ease-in-out;
+}
+
 .flex {
   display: flex;
   justify-content: space-between;
@@ -202,4 +210,25 @@ h3 {
   text-align: center;
   gap: 2em;
   margin-bottom: 2em !important;
+}
+
+/*ANIMATIONS*/
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
