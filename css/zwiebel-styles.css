@@ -10,7 +10,7 @@ html {
 .section-title {
   color: var(--purple);
   font-size: 46px;
-  margin-bottom: 40px;
+  margin-bottom: 1rem;
 }
 
 .section-item {
@@ -37,6 +37,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 2em;
 }
 
 .showcase-text {
@@ -176,11 +177,14 @@ blockquote {
   margin: auto;
   text-align: center;
   vertical-align: middle;
+  font-weight: 100;
+  font-style: italic;
 }
 
 .mockups {
   display: flex;
   gap: 2em;
+  margin: 0 !important;
 }
 
 .high-fidelity img {
@@ -189,12 +193,13 @@ blockquote {
 }
 
 h3 {
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .mockup {
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 1em;
+  gap: 2em;
+  margin-bottom: 2em !important;
 }
