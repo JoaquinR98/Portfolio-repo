@@ -276,4 +276,15 @@ h3 {
     width: 100%;
     height: auto;
   }
+
+  .styling h3,
+  h3 {
+    width: auto;
+    font-size: 1rem;
+  }
+
+  .mockups {
+    flex-direction: column;
+    gap: 0;
+  }
 }
