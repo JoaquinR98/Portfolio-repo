@@ -297,7 +297,8 @@ button {
 
 .icon {
   margin-right: 3em;
-  height: 30px;
+  margin-top: 10px;
+  height: 28px;
   width: auto;
 }
 
@@ -432,9 +433,13 @@ button {
   }
 
   .icon {
-    margin-right: 1em;
-    height: 26px;
+    margin-right: 20px;
+    height: 24px;
     width: auto;
+  }
+
+  #footer {
+    height: 80px;
   }
 
   #owner {
