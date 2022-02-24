@@ -348,6 +348,11 @@ button {
     align-items: center;
   }
 
+  .intro-text,
+  .contact-info {
+    flex-basis: 80%;
+  }
+
   .lead {
     font-size: 2em;
   }
@@ -378,7 +383,7 @@ button {
     flex-direction: column;
   }
 
-  #greekfix {
+  #mypriest {
     flex-direction: column-reverse;
   }
 
@@ -414,7 +419,11 @@ button {
   }
 
   #projects {
-    padding: 6em 0;
+    padding: 0;
+  }
+
+  #mypriest {
+    flex-direction: column-reverse;
   }
 
   #pp,
