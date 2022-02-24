@@ -406,11 +406,11 @@ button {
 
 @media (max-width: 540px) {
   .logo {
-    gap: 10px;
+    gap: 12px;
   }
 
   .logo-img {
-    height: 42px;
+    height: 40px;
     width: auto;
   }
 
@@ -439,5 +439,9 @@ button {
 
   #owner {
     font-size: 12px;
+  }
+
+  .noHover {
+    pointer-events: none;
   }
 }
