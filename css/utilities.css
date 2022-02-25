@@ -67,6 +67,11 @@ a {
   width: auto;
 }
 
+.navbar img {
+  display: block;
+  margin: auto;
+}
+
 .navbar li,
 a,
 button {
