@@ -186,3 +186,32 @@ img {
   .contact-btn {
     display: none;
   }
+
+  #showcase {
+    margin: 0;
+    padding-top: 60px;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  #specs {
+    padding-top: 80px;
+  }
+
+  .showcase-text {
+    margin: 20px 0;
+  }
+
+  #thumbnail {
+    height: 260px;
+    width: auto;
+    margin: 50px 0;
+  }
+
+  .section img {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
