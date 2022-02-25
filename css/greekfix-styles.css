@@ -125,18 +125,20 @@ img {
 }
 
 /*REDESIGNED UI*/
-#light-ui {
-  max-width: 800px;
+#splash {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
   height: auto;
-  background-color: white;
-  padding: 2em;
 }
 
-#dark-ui {
-  height: 534px;
-  width: auto;
-  background-color: white;
-  padding: 2em;
+#home {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 680px;
+  height: auto;
 }
 
 /*ANIMATIONS*/
