@@ -187,9 +187,6 @@ button {
   color: var(--cyan);
   position: relative;
 }
-.read-case:hover {
-  cursor: default;
-}
 .read-case::after {
   content: "";
   position: absolute;
@@ -304,6 +301,7 @@ button {
     align-items: center;
     justify-content: center;
     gap: 4em;
+    width: max-content;
   }
 }
 
