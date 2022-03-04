@@ -296,6 +296,15 @@ button {
 /*MEDIA QUERY*/
 /*big screens*/
 @media screen and (min-width: 1400px) {
+  #intro {
+    height: 20vh;
+  }
+
+  .intro-info,
+  .contact-info {
+    padding-top: 10em;
+  }
+
   .project {
     display: flex;
     align-items: center;
