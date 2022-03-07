@@ -469,12 +469,12 @@ button {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: hsl(223, 40%, 20%); /* Set a background color */
+  background-color: hsl(225, 40%, 20%); /* Set a background color */
   color: var(--white); /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
-  border-radius: 15px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  border-radius: 20px; /* Rounded corners */
+  font-size: 20px; /* Increase font size */
 }
 
 #topBtn:hover {
