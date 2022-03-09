@@ -20,20 +20,6 @@ html {
   font-size: 28px;
 }
 
-.imageContainer > img:hover {
-  color: #424242;
-  background-color: var(--bg-white);
-  -webkit-transition: all 0.3s ease-in;
-  -moz-transition: all 0.3s ease-in;
-  -ms-transition: all 0.3s ease-in;
-  -o-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
-  opacity: 1;
-  transform: scale(1.2);
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari and Chrome */
-}
-
 /* SHOWCASE */
 
 #showcase {
