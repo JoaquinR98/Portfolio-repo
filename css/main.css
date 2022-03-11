@@ -313,10 +313,17 @@ button {
 
   .project {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-between;
     gap: 4em;
     width: max-content;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
@@ -387,7 +394,8 @@ button {
     flex-direction: column;
   }
 
-  #mypriest {
+  #mypriest,
+  #noteit {
     flex-direction: column-reverse;
   }
 
