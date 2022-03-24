@@ -124,3 +124,21 @@
   height: auto;
   width: 100%;
 }
+
+/*DESIGN*/
+#design .flex img {
+  height: 360px;
+  width: auto;
+}
+
+#design img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.mockups h3 {
+  font-size: 1.5rem;
+}
