@@ -167,10 +167,6 @@ button {
   margin: 6em 0;
 }
 
-#projects .arrow {
-  transform: rotate(-90deg);
-}
-
 .project-img {
   position: relative;
   display: block;
@@ -184,7 +180,7 @@ button {
 }
 
 .project-type {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   opacity: 0.5;
 }
 
@@ -256,9 +252,7 @@ button {
   color: var(--cyan);
   position: relative;
 }
-#myemail:hover {
-  cursor: default;
-}
+
 #myemail::after {
   content: "";
   position: absolute;
