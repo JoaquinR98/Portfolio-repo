@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="#" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="css/utilities.css" />
     <link rel="stylesheet" href="css/greekfix-styles.css" />
     <title>GreekFix</title>
@@ -46,6 +50,10 @@
         </div>
       </div>
     </section>
+
+    <button onclick="topFunction()" id="topBtn" title="Go to top">
+      <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+    </button>
 
     <!--Specs-->
     <section id="specs">
@@ -147,5 +155,29 @@
         <img id="home" src="./images/greekfix/Home.png" />
       </div>
     </section>
+
+    <script>
+      mybutton = document.getElementById("topBtn");
+
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 200 ||
+          document.documentElement.scrollTop > 200
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
   </body>
 </html>
