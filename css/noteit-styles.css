@@ -2,6 +2,10 @@
   --green: #1b9258;
 }
 
+html {
+  scrollbar-color: hsl(151, 69%, 24%) #555;
+}
+
 /*SECTION HEADINGS*/
 .section-title {
   color: var(--green);
