@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/utilities.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <script src="./scriptPorftolio.js"></script>
     <title>UX Portfolio | Joaquin Rodini</title>
     <title>Document</title>
     </script>
@@ -206,46 +207,28 @@
       </div>
     </section>
 
-    <script type="text/javascript">
-      //Reveal animation
-      window.addEventListener('scroll', reveal);
+    <script>
+      mybutton = document.getElementById("topBtn");
 
-      function reveal(){
-        var reveals = document.querySelectorAll('.reveal');
+      window.onscroll = function () {
+        scrollFunction();
+      };
 
-        for(var i = 0; i < reveals.length; i++){
-
-          var windowheight = window.innerHeight;
-          var revealtop = reveals[i].getBoundingClientRect().top;
-          var revealpoint = 50;
-
-          if(revealtop < windowheight - revealpoint){
-            reveals[i].classList.add('active');
-          }
-          else{
-            reveals[i].classList.remove('active');
-          }
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 200 ||
+          document.documentElement.scrollTop > 200
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
         }
       }
 
-      //Scroll up button
-      mybutton = document.getElementById("topBtn");
-
-      window.onscroll = function() {scrollFunction()};
-
-      function scrollFunction() {
-        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        mybutton.style.display = "block";
-        } else {
-        mybutton.style.display = "none";
-        } 
-      }
-
       function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-      } 
-
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
     </script>
   </body>
 </html>
