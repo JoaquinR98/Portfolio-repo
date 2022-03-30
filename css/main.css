@@ -161,6 +161,12 @@ button {
   z-index: 9998;
 }
 
+.fa-long-arrow-up {
+  rotate: 180deg;
+  margin-left: 5px;
+  transform: scale(1.2);
+}
+
 /*PROJECTS*/
 #projects {
   padding: 4em 0;
