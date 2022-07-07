@@ -107,3 +107,42 @@
   grid-area: 3 / 3 / 4 / 4;
   text-align: center;
 }
+
+/*DISPLAY*/
+#display {
+  padding: 3% 20%;
+  background: rgb(222, 162, 74);
+  background: linear-gradient(
+    90deg,
+    rgba(222, 162, 74, 1) 0%,
+    rgba(222, 162, 74, 1) 50%,
+    rgba(222, 162, 74, 1) 100%
+  );
+}
+
+#display-thumbnail {
+  display: block;
+  height: auto;
+  width: 60%;
+  margin: auto;
+}
+
+/*DISCOVER*/
+#discover img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.findings {
+  padding: 0 10em;
+}
+
+blockquote {
+  max-width: 520px;
+  margin: auto;
+  padding: 30px 50px;
+  background-color: #f0eecfda;
+}
