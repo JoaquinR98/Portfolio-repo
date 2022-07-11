@@ -165,3 +165,11 @@ blockquote {
   max-width: 600px;
   height: auto;
 }
+
+/*DESIGN*/
+#design img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
