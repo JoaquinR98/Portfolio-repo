@@ -395,7 +395,8 @@ button {
   }
 
   #mypriest,
-  #noteit {
+  #noteit,
+  #roomie {
     flex-direction: column-reverse;
   }
 
