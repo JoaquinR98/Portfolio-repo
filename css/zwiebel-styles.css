@@ -138,6 +138,10 @@ html {
   height: auto;
 }
 
+.findings {
+  padding: 0 10em;
+}
+
 blockquote {
   max-width: 520px;
   margin: auto;
@@ -300,5 +304,9 @@ h3 {
   .mockups {
     flex-direction: column;
     gap: 0;
+  }
+
+  .findings {
+    padding: 0;
   }
 }

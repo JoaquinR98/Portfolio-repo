@@ -139,11 +139,14 @@ html {
 }
 
 blockquote {
-  min-width: fit-content;
   max-width: 520px;
   margin: auto;
   padding: 30px 50px;
   background-color: #f0eecfda;
+}
+
+.findings {
+  padding: 0 10em;
 }
 
 /*DEFINE*/
@@ -300,5 +303,9 @@ blockquote {
 
   .noHover {
     pointer-events: none;
+  }
+
+  .findings {
+    padding: 0;
   }
 }
