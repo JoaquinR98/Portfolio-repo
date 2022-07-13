@@ -3,7 +3,7 @@
 }
 
 html {
-  scrollbar-color: #6844ca #555;
+  scrollbar-color: var(--purple) #555;
 }
 
 /*SECTION HEADINGS*/
