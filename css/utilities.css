@@ -43,6 +43,70 @@ a {
   text-decoration: none;
 }
 
+/*NAVBAR*/
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 20%;
+}
+
+.img-fluid {
+  height: 40px;
+  width: auto;
+}
+
+.navbar img {
+  display: block;
+  margin: auto;
+}
+
+.navbar li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.nav-links a {
+  padding: 12px;
+  list-style: none;
+  transition: color 250ms;
+  margin: 8px;
+}
+.nav-links a:hover {
+  color: var(--cyan);
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.contact-btn {
+  width: 120px;
+  padding: 8px;
+  background-color: transparent;
+  border: 2px solid var(--cyan);
+  border-radius: 10em;
+  transition: background-color 0.6s;
+}
+
+.contact-btn:hover {
+  cursor: pointer;
+  background-color: var(--cyan);
+  color: var(--dark);
+  font-weight: bold;
+  transition: all ease-in-out 250ms;
+}
+
 .section {
   margin-top: 5em;
   padding: 3% 20%;
