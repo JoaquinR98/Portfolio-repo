@@ -53,69 +53,6 @@ a {
   margin: 3em 0;
 }
 
-/*NAVBAR*/
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: var(--dark);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6px 20%;
-}
-
-.img-fluid {
-  height: 40px;
-  width: auto;
-}
-
-.navbar img {
-  display: block;
-  margin: auto;
-}
-
-.navbar li,
-a,
-button {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  color: var(--white);
-  text-decoration: none;
-}
-
-.nav-links a {
-  padding: 12px;
-  list-style: none;
-  transition: color 0.6s;
-}
-.nav-links a:hover {
-  color: rgba(45, 102, 187, 1);
-}
-
-.nav-links li {
-  display: inline-block;
-  padding: 0 20px;
-}
-
-.contact-btn {
-  width: 120px;
-  padding: 6px 26px;
-  background-color: var(--blue);
-  border-style: none;
-  border-radius: 6px;
-  transition: background-color 0.6s;
-  box-sizing: inset 0 0 0 0 #f9e506;
-  transition: ease-out 0.3s;
-  outline: none;
-}
-
-.contact-btn:hover {
-  box-shadow: inset 120px 0 0 0 #1e437b;
-  cursor: pointer;
-}
-
 /*GO TOP BUTTON*/
 #topBtn {
   display: none; /* Hidden by default */
