@@ -188,7 +188,7 @@ button {
 }
 
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
   transition: ease-in-out 500ms;
 }
 
@@ -215,6 +215,7 @@ button {
 
 .btn-card span {
   font-weight: 800;
+  font-size: 1.2rem;
 }
 
 .btn-card i {
