@@ -189,7 +189,7 @@ button {
 }
 
 .card:hover {
-  transform: scale(1.03);
+  transform: scale(1.03) !important;
   transition: ease-in-out 500ms;
 }
 
@@ -223,7 +223,7 @@ button {
   margin-left: 4px;
 }
 
-/*ROOMIE*/
+/*ROOMIE CARD*/
 #roomie {
   background: #dea24a;
 }
@@ -235,7 +235,7 @@ button {
   margin-left: 60px;
 }
 
-/*ZWIEBEL*/
+/*ZWIEBEL CARD*/
 #zwiebel {
   background: #764ee8;
 }
@@ -246,7 +246,7 @@ button {
   margin-right: -90px;
 }
 
-/*MYPRIEST*/
+/*MYPRIEST CARD*/
 #mypriest {
   background: #ff4747;
 }
@@ -259,7 +259,7 @@ button {
   margin-left: 10px;
 }
 
-/*GREEKFIX*/
+/*GREEKFIX CARD*/
 #greekfix {
   background: #338599;
 }
@@ -271,7 +271,7 @@ button {
   margin-left: 60px;
 }
 
-/*NOTEIT*/
+/*NOTEIT CARD*/
 #noteit {
   background: #1b9258;
 }
@@ -429,8 +429,6 @@ button {
     width: auto;
     display: inline-flex;
   }
-
-  /*CONTACT*/
 }
 
 /*Mobile*/
