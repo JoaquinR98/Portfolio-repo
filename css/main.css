@@ -362,9 +362,8 @@ button {
     height: 20vh;
   }
 
-  .intro-info,
-  .contact-info {
-    padding-top: 10em;
+  .intro-info {
+    padding-top: 9em;
   }
 
   #projects {
