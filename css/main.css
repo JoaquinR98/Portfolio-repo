@@ -303,25 +303,9 @@ button {
 
 /*CONTACT*/
 #contact {
-  height: 30px;
   background-color: var(--dark-blue);
-  position: relative;
-  margin-bottom: 22em;
-}
-
-#contact::before,
-#contact::after {
-  content: "";
-  position: absolute;
-  height: 200px;
-  bottom: -100px;
-  right: 0;
-  left: 0;
-  background: var(--bg-white);
-  transform: skewY(6deg);
-  -webkit-transform: skewY(6deg);
-  -moz-transform: skewY(6deg);
-  -ms-transform: skewY(6deg);
+  color: var(--white);
+  padding-bottom: 8em;
 }
 
 /*hover animation on email*/
@@ -349,7 +333,8 @@ button {
 
 /*FOOTER*/
 #footer {
-  height: 100px;
+  position: sticky;
+  padding: 8px;
   background-color: var(--dark-blue);
 }
 
@@ -436,7 +421,7 @@ button {
 
   /*ABOUT*/
   #about {
-    padding-bottom: 14em;
+    padding-bottom: 8em;
   }
 
   #pp2 {
@@ -446,9 +431,6 @@ button {
   }
 
   /*CONTACT*/
-  #contact {
-    margin-bottom: 20em;
-  }
 }
 
 /*Mobile*/
