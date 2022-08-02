@@ -470,8 +470,25 @@ button {
     padding: 0;
   }
 
-  #mypriest {
+  .card {
+    width: 100vw;
+    height: fit-content;
+    padding-top: 60px;
+    padding-bottom: 60px;
     flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 40px;
+  }
+
+  #roomie img,
+  #zwiebel img,
+  #mypriest img,
+  #greekfix img,
+  #noteit img {
+    margin: 0;
+    height: 220px;
   }
 
   #pp,
