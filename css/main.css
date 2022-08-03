@@ -450,15 +450,21 @@ button {
   }
 
   .card {
-    width: 100vw;
+    width: 90vw;
     height: fit-content;
     padding-top: 60px;
     padding-bottom: 60px;
     flex-direction: column-reverse;
     align-items: center;
-    justify-content: center;
-    justify-items: center;
     gap: 40px;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .btn-card {
+    padding: 20px 40px;
   }
 
   #roomie img,
@@ -467,7 +473,7 @@ button {
   #greekfix img,
   #noteit img {
     margin: 0;
-    height: 220px;
+    height: 210px;
   }
 
   #pp,
