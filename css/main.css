@@ -168,47 +168,119 @@ button {
 
 /*PROJECTS*/
 #projects {
-  padding: 4em 0;
-  margin: 6em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  margin-top: 20em;
+  margin-bottom: 10em;
 }
 
-.project-img {
-  position: relative;
-  display: block;
-  height: 220px;
+.card {
+  max-width: 700px;
+  height: 250px;
+  padding: 120px 40px;
+  overflow: visible;
+  box-shadow: 0 5px 10px gray;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.card:hover {
+  transform: scale(1.03) !important;
+  transition: ease-in-out 500ms;
+}
+
+.title p {
+  line-height: 1.3;
+}
+
+.btn-container {
+  margin-top: 20px;
+}
+
+.btn-card {
+  padding: 12px 40px;
+  border-radius: 40px;
+  border: none;
+  background-color: rgba(40, 40, 40, 0.6);
+}
+
+.btn-card:hover {
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+  background-color: rgba(40, 40, 40, 1);
+}
+
+.btn-card span {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.btn-card i {
+  margin-left: 4px;
+}
+
+/*ROOMIE CARD*/
+#roomie {
+  background: #dea24a;
+}
+
+#roomie img {
+  height: 260px;
   width: auto;
-  transition: all 0.5s;
-}
-.project-img:hover {
-  transform: scale(1.1);
-  background-color: black;
+  margin-top: 80px;
+  margin-left: 60px;
 }
 
-.project-type {
-  font-size: 1.1rem;
-  opacity: 0.5;
+/*ZWIEBEL CARD*/
+#zwiebel {
+  background: #764ee8;
 }
 
-/*hover animation on read case study links*/
-.read-case {
-  color: var(--cyan);
-  position: relative;
+#zwiebel img {
+  height: 200px;
+  width: auto;
+  margin-right: -90px;
 }
-.read-case::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 2px;
-  background: currentColor;
 
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 300ms ease-in;
+/*MYPRIEST CARD*/
+#mypriest {
+  background: #ff4747;
 }
-.read-case:hover::after {
-  transform: scaleX(1);
+
+#mypriest img {
+  height: 280px;
+  width: auto;
+  margin-top: 80px;
+  margin-right: -30px;
+  margin-left: 10px;
+}
+
+/*GREEKFIX CARD*/
+#greekfix {
+  background: #338599;
+}
+
+#greekfix img {
+  height: 260px;
+  width: auto;
+  margin-top: 80px;
+  margin-left: 60px;
+}
+
+/*NOTEIT CARD*/
+#noteit {
+  background: #1b9258;
+}
+
+#noteit img {
+  height: 260px;
+  width: auto;
+  margin-top: 80px;
+  margin-left: 60px;
 }
 
 /*ABOUT*/
@@ -231,25 +303,9 @@ button {
 
 /*CONTACT*/
 #contact {
-  height: 30px;
   background-color: var(--dark-blue);
-  position: relative;
-  margin-bottom: 22em;
-}
-
-#contact::before,
-#contact::after {
-  content: "";
-  position: absolute;
-  height: 200px;
-  bottom: -100px;
-  right: 0;
-  left: 0;
-  background: var(--bg-white);
-  transform: skewY(6deg);
-  -webkit-transform: skewY(6deg);
-  -moz-transform: skewY(6deg);
-  -ms-transform: skewY(6deg);
+  color: var(--white);
+  padding-bottom: 8em;
 }
 
 /*hover animation on email*/
@@ -277,7 +333,8 @@ button {
 
 /*FOOTER*/
 #footer {
-  height: 100px;
+  position: sticky;
+  padding: 8px;
   background-color: var(--dark-blue);
 }
 
@@ -305,24 +362,12 @@ button {
     height: 20vh;
   }
 
-  .intro-info,
-  .contact-info {
-    padding-top: 10em;
+  .intro-info {
+    padding-top: 9em;
   }
 
-  .project {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    gap: 4em;
-    width: max-content;
-  }
-
-  .projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+  #projects {
+    margin-top: 24em;
   }
 }
 
@@ -330,28 +375,23 @@ button {
 @media (max-width: 980px) {
   /*NAVBAR*/
   .navbar {
-    position: relative;
-    height: auto;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .nav-links {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-evenly;
   }
 
   .nav-links li {
     padding: 4px;
   }
 
-  .contact-btn {
+  #contact-link {
     display: none;
   }
 
   /*INTRO*/
   #intro {
-    height: 80px;
+    height: 120px;
   }
 
   .intro-info {
@@ -367,52 +407,26 @@ button {
     font-size: 2em;
   }
 
-  .project {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .project div {
-    width: 306px;
-  }
-
   #pp {
-    width: 200px;
+    width: 240px;
     height: auto;
   }
 
   /*PROJECT SECTION*/
   #projects {
     padding: 0;
-    margin: 30em 0 0 0;
-    margin-bottom: 0;
-  }
-
-  .project {
-    flex-direction: column;
-  }
-
-  #mypriest,
-  #noteit,
-  #roomie {
-    flex-direction: column-reverse;
+    margin-top: 20em;
   }
 
   /*ABOUT*/
   #about {
-    padding-bottom: 14em;
+    padding-bottom: 8em;
   }
 
   #pp2 {
-    height: 260px;
+    height: 320px;
     width: auto;
     display: inline-flex;
-  }
-
-  /*CONTACT*/
-  #contact {
-    margin-bottom: 30em;
   }
 }
 
@@ -435,8 +449,31 @@ button {
     padding: 0;
   }
 
-  #mypriest {
+  .card {
+    width: 90vw;
+    height: fit-content;
+    padding-top: 60px;
+    padding-bottom: 60px;
     flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .btn-card {
+    padding: 20px 40px;
+  }
+
+  #roomie img,
+  #zwiebel img,
+  #mypriest img,
+  #greekfix img,
+  #noteit img {
+    margin: 0;
+    height: 210px;
   }
 
   #pp,
