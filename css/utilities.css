@@ -79,7 +79,7 @@ button {
   padding: 12px;
   list-style: none;
   transition: color 250ms;
-  margin: 8px;
+  margin: 0px;
 }
 .nav-links a:hover {
   color: var(--cyan);
