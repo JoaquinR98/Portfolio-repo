@@ -99,3 +99,31 @@ html {
   margin: auto;
   text-align: center;
 }
+
+/*DISPLAY*/
+#welcome-ui {
+  display: flex;
+}
+
+.ui-box {
+  background: var(--orange);
+  max-width: 60%;
+  padding: 5% 0;
+}
+
+.ui-box img {
+  display: block;
+  height: auto;
+  width: 80%;
+  margin: auto;
+}
+
+.description {
+  max-width: 40%;
+  margin: auto;
+  padding: 0 100px;
+}
+
+.description h2 {
+  color: var(--orange);
+}
