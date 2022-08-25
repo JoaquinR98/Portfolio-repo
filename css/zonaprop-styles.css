@@ -149,3 +149,66 @@ html {
   }
 }
 
+/*Mobile*/
+@media (max-width: 980px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    position: relative;
+    padding: 10px;
+    height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .nav-links {
+    display: flex;
+  }
+  .nav-links li {
+    padding: 2px;
+  }
+  .contact-btn {
+    display: none;
+  }
+
+  #showcase {
+    margin: 0;
+    padding-top: 60px;
+  }
+
+  #specs {
+    padding-top: 80px;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .showcase-text {
+    margin: 20px 0;
+  }
+
+  .display-ui {
+    flex-direction: column;
+    margin-bottom: 10em;
+  }
+
+  .ui-box {
+    background: var(--orange);
+    max-width: 100%;
+    padding: 5% 0;
+  }
+
+  .description {
+    max-width: 100%;
+    margin: auto;
+    padding: 5% 10%;
+  }
+
+  #discover,
+  #publish {
+    flex-direction: column-reverse;
+  }
+}
