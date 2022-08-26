@@ -70,7 +70,7 @@ html {
 .navbar li,
 .navbar a,
 button {
-  font-family: "Montserrat", sans-serif;
+  font-family: "roboto", sans-serif;
   font-weight: 500;
   font-size: 18px;
   color: var(--white);
