@@ -349,6 +349,14 @@ button {
   padding: 20px 0;
 }
 
+#download {
+  font-size: 1.2rem;
+}
+#download:hover {
+  color: var(--cyan);
+  transition: ease-in-out color 250ms;
+}
+
 .icon {
   transform: scale(1.6);
 }
@@ -484,13 +492,16 @@ button {
   }
 
   .icon {
-    margin-right: 20px;
     height: 24px;
     width: auto;
   }
 
   #footer {
     height: 80px;
+  }
+
+  #download {
+    display: none;
   }
 
   #owner {
