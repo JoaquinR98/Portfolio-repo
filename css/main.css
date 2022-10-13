@@ -289,9 +289,9 @@ button {
 }
 
 #walla img {
-  height: 80px;
+  height: 200px;
   width: auto;
-  margin-left: 10px;
+  margin-right: -90px;
 }
 
 /*ABOUT*/
