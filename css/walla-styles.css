@@ -123,3 +123,13 @@ blockquote {
   max-width: 600px;
   height: auto;
 }
+
+/*DEFINE*/
+#define img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 1em;
+}
