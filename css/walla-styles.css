@@ -104,7 +104,7 @@
 /*BANNER*/
 #bannerimg {
   width: 100%;
-  height: 405px;
+  height: auto;
   background-position: center;
 }
 
@@ -154,4 +154,72 @@ blockquote {
 #productpreview {
   width: 375px;
   margin: 0;
+}
+
+/*ANIMATIONS*/
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*Mobile*/
+@media (max-width: 980px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    position: relative;
+    padding: 10px;
+    height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .nav-links {
+    display: flex;
+  }
+  .nav-links li {
+    padding: 2px;
+  }
+  .contact-btn {
+    display: none;
+  }
+
+  #showcase {
+    margin: 0;
+    padding-top: 60px;
+  }
+
+  .showcase-text {
+    margin: 20px 0;
+  }
+
+  #specs {
+    padding-top: 80px;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  #productpreview {
+    width: 100%;
+    height: auto;
+  }
 }
