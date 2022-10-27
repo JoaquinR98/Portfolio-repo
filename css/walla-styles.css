@@ -2,6 +2,10 @@
   --black: black;
 }
 
+html {
+  scrollbar-color: var(--black) #555;
+}
+
 /*SECTION HEADINGS*/
 .section-title {
   color: var(--black);
