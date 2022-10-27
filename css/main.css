@@ -473,8 +473,7 @@ button {
   .card {
     width: 90vw;
     height: fit-content;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
     flex-direction: column-reverse;
     align-items: center;
     gap: 40px;
@@ -482,19 +481,21 @@ button {
 
   .content {
     text-align: center;
+    margin: 0 2em;
   }
 
   .btn-card {
-    padding: 20px 40px;
+    padding: 20px 48px;
   }
 
   #roomie img,
   #zwiebel img,
   #mypriest img,
   #greekfix img,
-  #noteit img {
+  #noteit img,
+  #walla img {
     margin: 0;
-    height: 210px;
+    height: 190px;
   }
 
   #pp,
