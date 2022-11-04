@@ -220,6 +220,13 @@ blockquote {
 
   #specs {
     padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  #specs .grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .flex {
